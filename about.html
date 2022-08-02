@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link href="css/about.css" rel="stylesheet">
+    <link href="css/top.css" type="text/css" rel="stylesheet">
+    <link href="css/animate.css" type="text/css" rel="stylesheet">
+
+    <script>
+        $(function() {
+            $('.chart').easyPieChart({
+                scaleColor: "#ecf0f1",
+                lineWidth: 20,
+                lineCap: 'butt',
+                barColor: '#1abc9c',
+                trackColor: "#ecf0f1",
+                size: 160,
+                animate: 500
+                });
+            });
+    </script>
+</head>
+<body>
+    <div class="top">
+        <div class="animated fadeInLeft">
+            <div class="logo"><a href="index.html"><img src="images/logo2.png" alt="" /></a></div>
+        </div>
+        
+        <div class="animated bounce">
+            <div class="logo_480"><a href="index.html"><img src="images/logo2.png" alt="" /></a></div>
+        </div>
+
+        <div class="animated fadeInRight">
+            <ul class="nav">
+                <li><a href="about.html">About</a></li>
+                <li><a href="works.html">Works</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="content_box">
+        <h1>WEB DESIGNER</h1>
+
+        <div class="cotent_table_box">
+            <div class="content_profile">
+                <p>PROFILE</p>
+                <table>
+                    <tr>
+                        <td>NAME</td>
+                        <td>전수빈(Jeon su bin)</td>
+                    </tr>
+                    <tr>
+                        <td>Birth</td>
+                        <td>1997.09.26</td>
+                    </tr>
+                    <tr>
+                        <td>Mobile</td>
+                        <td>010-6203-1145</td>
+                    </tr>
+                    <tr>
+                        <td>E-mail</td>
+                        <td>junsbbb@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Address</td>
+                        <td>인천광역시</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="content_skill">
+                <p>SKILL</p>
+                
+                <img src="images/chart.png" alt="" />
+            </div>
+        </div>
+    </div>
+</body>
+</html>
